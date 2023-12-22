@@ -47,6 +47,13 @@ Berdasarkan pernyataan masalah yang dijelaskan di atas, berikut ini adalah perta
 - Kolom Relevan: waktu masuk, waktu keluar, nama koridor, arah.
 - Bantuan Analis Data: Menganalisis waktu dan frekuensi perjalanan untuk mengidentifikasi rute yang sibuk.
 
+**2. Apakah ada rute yang secara konsisten mengalami kepadatan penumpang?**
+- Justifikasi: Mengidentifikasi rute yang padat akan membantu dalam alokasi sumber daya dan armada yang lebih baik.
+- Kolom Relevan: id transaksi, nama koridor, halte masuk, halte keluar.
+- Bantuan Analis Data: Menghitung jumlah transaksi per rute untuk menentukan kepadatan.
+
+**Analisis dari pertanyaan-pertanyaan ini akan membantu Divisi Manajemen Operasional Transjakarta dalam membuat keputusan yang lebih informatif dan strategis untuk meningkatkan efisiensi operasional.**
+
 > ### **Informasi Terkait Variabel/Kolom pada Dataset**
 
 Dataset ini berisi informasi tentang Transaksi Transportasi Umum Transjakarta. Untuk mengetahui lebih lanjut tentang dataset Transaksi Transportasi Umum Transjakarta, Anda dapat melihatnya [di sini](https://drive.google.com/drive/folders/1S04hk5uHfHYe6J1S6fVqDunuja1Lk1Lo). Terdapat 22 kolom dalam dataset `Transjakarta.csv`. Berikut ini adalah penjelasan dari setiap kolomnya:
@@ -73,10 +80,3 @@ Dataset ini berisi informasi tentang Transaksi Transportasi Umum Transjakarta. U
 20. `stopEndSeq:` Urutan pemberhentian, misalnya pemberhentian pertama, kedua, dan seterusnya. Berkaitan dengan arah.
 21. `tapOutTime:` Waktu tap out. Tanggal dan waktu.
 22. `payAmount:` Jumlah yang dibayar oleh pelanggan. Beberapa gratis, beberapa tidak.
-
-**2. Apakah ada rute yang secara konsisten mengalami kepadatan penumpang?**
-- Justifikasi: Mengidentifikasi rute yang padat akan membantu dalam alokasi sumber daya dan armada yang lebih baik.
-- Kolom Relevan: id transaksi, nama koridor, halte masuk, halte keluar.
-- Bantuan Analis Data: Menghitung jumlah transaksi per rute untuk menentukan kepadatan.
-
-**Analisis dari pertanyaan-pertanyaan ini akan membantu Divisi Manajemen Operasional Transjakarta dalam membuat keputusan yang lebih informatif dan strategis untuk meningkatkan efisiensi operasional.**
